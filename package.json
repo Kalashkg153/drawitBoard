@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engine" :{
+    "node" : "16.15.1",
+    "npm" : "8.11.0"
+  },
   "scripts": {
      "dev" : "nodemon app.js",
-     "live": " node app.js"
+     "start" : "node app.js"
   },
   "keywords": [],
   "author": "",
